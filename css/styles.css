@@ -1,0 +1,11 @@
+h1, h3, a {
+  text-align: center;
+}
+html {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+p {
+  display: none;
+}
