@@ -7,29 +7,39 @@ $(document).ready(function() {
     var beach = $("select#beach").val();
 
 
-    if (history === "yesHistory") {
+    if (history === "noHistory" && culture === "yesCulture" && food === "yesFood" && outdoor === "noOut" && beach === "noBeach") {
+      $('#hk').show();
+    } else if (history === "noHistory" && culture === "noCulture" && food === "yesFood" && outdoor === "yesOut" && beach === "yesBeach"){
+      $('#maui').show();
+    } else if (history === "yesHistory" && culture == "yesCulture" && food === "noFood" && outdoor === "noOut" && beach === "noBeach") {
       $('#london').show();
-    } else if (history === "noHistory") {
-      $('#hk').show();
-    } else if (culture === "yesCulture") {
-      $('#maui').show();
-    } else if (culture === "noCulture") {
-      $('#hk').show();
-    } else if (food === "yesFood") {
-      $('#hk').show();
-    } else if (food === "noFood") {
+    } else if (history === "yesHistory" && culture === "yesCulture" && food === "yesFood" && outdoor === "yesOut" && beach === "yesBeach"){
       $('#london').show();
-    } else if (outdoor === "yesOut") {
-      $('#hk').show();
-    } else if (outdoor === "noOut") {
-      $('#maui').show();
-    } else if (beach === "yesBeach") {
-      $('#hk').show();
-    } else if (outdoor === "noBeach") {
-      $('#hk').show();
-    } else {
-      $('#maui').show();
+    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+      $('#').show();
+    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+      $('#').show();
+    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+      $('#').show();
+    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+      $('#').show();
+    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+      $('#').show();
     }
+
+
+
+    // if (history === "yesHistory") {
+    //   $('#london').show();
+    // } else if (culture === "noCulture") {
+    //   $('#london').show();
+    // } else if (food === "yesFood") {
+    //   $('#hk').show();
+    // } else if (outdoor === "noOut") {
+    //   $('#hk').show();
+    // } else {
+    //   $('#maui').show();
+    // }
 
 
 
