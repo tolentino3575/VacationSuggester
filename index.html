@@ -23,69 +23,93 @@
 
         <br>
 
-        <div class="row">
+        <div class="section1">
+          <div class="row">
+            <div class="col-md-9">
+              <form id="vacation">
 
-          <div class="col-md-9">
-            <form id="vacation">
+                <label for="history">Do you like to spend your entire vacation visiting historical sites?</label>
+                <select id="history">
+                  <option value="yesHistory">Yes</option>
+                  <option value="noHistory">No</option>
+                </select>
 
-              <label for="type">Of the following, which is most important?</label>
-              <select id="type">
-                <option value="history">Visiting historical sites</option>
-                <option value="party">Partying</option>
-                <option value="culture">Diving into culture</option>
-              </select>
+                <br>
 
-              <br>
+                <label for="culture">Are you interested in learning the culture of your destination?</label>
+                <select id="culture">
+                  <option value="yesCulture">Yes</option>
+                  <option value="noCulture">No</option>
+                </select>
 
-              <label for="food">Is food very important to you?</label>
-              <select id="food">
-                <option value="yesFood">Yes</option>
-                <option value="noFood">No</option>
-              </select>
+                <br>
 
-              <br>
+                <label for="food">Is food very important to you?</label>
+                <select id="food">
+                  <option value="yesFood">Yes</option>
+                  <option value="noFood">No</option>
+                </select>
 
-              <label for="outdoor">Do you like outdoor activities?</label>
-              <select id="outdoor">
-                <option value="yesOut">Yes</option>
-                <option value="noOut">No</option>
-              </select>
+                <br>
 
-              <br>
+                <label for="outdoor">Do you like outdoor activities?</label>
+                <select id="outdoor">
+                  <option value="yesOut">Yes</option>
+                  <option value="noOut">No</option>
+                </select>
 
-              <label for="distance">Would you like to travel near or far?</label>
-              <select id="distance">
-                <option value="near">Near</option>
-                <option value="far">Far</option>
-              </select>
+                <br>
 
-              <br>
+                <label for="beach">Do you want a typical beach vacation?</label>
+                <select id="beach">
+                  <option value="yesBeach">Yes</option>
+                  <option value="noBeach">No</option>
+                </select>
 
+                <br>
 
-              <button type="submit" class="btn btn-danger">Find my Destination!</button>
+                <button type="submit" class="btn btn-danger">Find my Destination!</button>
 
-              <br>
+                <br>
 
-            </form>
-
-            <div id="hk">
-              <p>Hurry! Go to Hong-Kong!</p>
+              </form>
             </div>
 
-            <div id="london">
-              <p>Hurry! Go to London!</p>
-            </div>
-
-            <div id="maui">
-              <p>Hurry! Go to Maui!</p>
+            <div class="col-md-3">
+              <a href="index.html"><h4>Click to reset answers</h4></a>
             </div>
 
           </div>
+        </div>
 
-          <div class="col-md-3">
-            <a href="index.html"><h4>Click to reset answers.</h4></a>
+        <div class="section2">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="hk">
+                <p>Go to Hong-Kong! You like food right? They have that here! Culture? One of the deepest.</p>
+                <div class="picture">
+                  <img src="img/hk.jpg">
+                </div>
+              </div>
+
+              <div id="london">
+                <p>Hurry! Go to London! Visit Big Ben, ride the huge ferris wheel, eat a meat pie! The weather is just like Portland! Say hi to the queen for me!</p>
+                <div class="picture">
+                  <img src="img/london.jpg">
+                </div>
+              </div>
+
+              <div id="maui">
+                <p>Visit Hawaii and r-e-l-aaaaaaaaaaa-x/p>
+                <div class="picture">
+                  <img src="img/maui.jpg">
+                </div>
+
+              <div id="stay">
+                <p>Well damn, stay home then.</p>  
+              </div>
+            </div>
           </div>
-
         </div>
 
 

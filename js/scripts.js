@@ -1,16 +1,22 @@
 $(document).ready(function() {
   $("form#vacation").submit(function(event) {
-    var type = $("select#type").val();
+    var history = $("select#history").val();
+    var culture = $("select#culture").val();
+    var food = $("select#food").val();
+    var outdoor = $("select#outdoor").val();
+    var beach = $("select#beach").val();
 
-    if (type === "history") {
-      $('#london').hide();
+
+    if (history === "yesHistory") {
       $('#london').show();
-    } else if (type === "party") {
-      $('#maui').hide();
-      $('#maui').show();
-    } else if (type === "culture") {
-      $('#hk').hide();
-      $('#hk').show();
+    } else {
+      $('#london').hide();
+    }
+
+    if (history === "yesHistory") {
+      $('#london').show();
+    } else {
+      $('#london').hide();
     }
 
     event.preventDefault();

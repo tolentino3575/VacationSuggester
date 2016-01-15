@@ -12,10 +12,21 @@ html {
   display: none;
 }
 
-.row {
-  background-image: url("../img/clouds.jpg");
+.section1 {
+  background-color: #e6f1e4;
+  height: 100%;
+  padding: 15px
 }
 
-a {
-  color: white;
+.section2 {
+  height: 100%;
+  padding: 15px
+}
+
+.section2 p {
+  text-align: center;
+}
+
+.picture {
+  text-align: center;
 }
