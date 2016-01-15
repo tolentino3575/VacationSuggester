@@ -8,17 +8,17 @@ $(document).ready(function() {
 
 
     if (history === "yesHistory") {
-      $('#london').show();
+      $('.london').show();
     } else if (culture === "noCulture") {
-      $('#london').show();
+      $('.london').show();
     } else if (food === "yesFood") {
-      $('#hk').show();
+      $('.hk').show();
     } else if (outdoor === "noOut") {
-      $('#hk').show();
+      $('.hk').show();
     } else {
-      $('#maui').show();
+      $('.maui').show();
     }
-
+    
 
 
     //  if (culture === "yesCulture") {

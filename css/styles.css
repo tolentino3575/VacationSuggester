@@ -1,5 +1,3 @@
-
-
 h1, h3, a {
   text-align: center;
 }
@@ -8,7 +6,7 @@ html {
   margin-left: 100px;
 }
 
-#hk, #london, #maui {
+.hk, .london, .maui {
   display: none;
 }
 
