@@ -9,15 +9,29 @@ $(document).ready(function() {
 
     if (history === "yesHistory") {
       $('#london').show();
+    } else if (culture === "noCulture") {
+      $('#london').show();
+    } else if (food === "yesFood") {
+      $('#hk').show();
+    } else if (outdoor === "noOut") {
+      $('#hk').show();
     } else {
-      $('#london').hide();
+      $('#maui').show();
     }
 
-    if (history === "yesHistory") {
-      $('#london').show();
-    } else {
-      $('#london').hide();
-    }
+
+
+    //  if (culture === "yesCulture") {
+    //    $('#hk').show();
+    //  } else {
+    //    $('#hk').hide();
+    //  }
+     //
+    //  if (beach === "yesBeach") {
+    //    $('#maui').show();
+    //  } else {
+    //    $('#maui').hide();
+    //  }
 
     event.preventDefault();
   });
