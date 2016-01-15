@@ -6,7 +6,7 @@ html {
   margin-left: 100px;
 }
 
-.hk, .london, .maui {
+#hk, #london, #maui {
   display: none;
 }
 
