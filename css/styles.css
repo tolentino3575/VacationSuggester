@@ -1,3 +1,5 @@
+
+
 h1, h3, a {
   text-align: center;
 }
@@ -6,6 +8,14 @@ html {
   margin-left: 100px;
 }
 
-p {
+#hk, #london, #maui {
   display: none;
+}
+
+.row {
+  background-image: url("../img/clouds.jpg");
+}
+
+a {
+  color: white;
 }
