@@ -19,7 +19,7 @@ $(document).ready(function() {
       $('#london').show();
     } else if (history === "yesHistory" && culture === "yesCulture" && food === "yesFood" && outdoor === "yesOut" && beach === "noBeach"){
       $('#hk').show();
-    } else if (history === "yesHistory" && culture == "yesCulture" && food === "noFood" && outdoor === "noOut" && beach === "noBeach") {
+    // } else if (history === "yesHistory" && culture == "yesCulture" && food === "noFood" && outdoor === "noOut" && beach === "noBeach") {
       $('#london').show();
     } else if (history === "yesHistory" && culture === "yesCulture" && food === "yesFood" && outdoor === "noOut" && beach === "noBeach"){
       $('#maui').show();
@@ -41,11 +41,11 @@ $(document).ready(function() {
       $('#hk').show();
     } else if (history === "yesHistory" && culture === "noCulture" && food === "noFood" && outdoor === "noOut" && beach === "yesBeach"){
       $('#maui').show();
-    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+    } else if (history === "yesHistory" && culture === "noCulture" && food === "yesFood" && outdoor === "noOut" && beach === "yesBeach"){
       $('#london').show();
-    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+    } else if (history === "noHistory" && culture === "yesCulture" && food === "noFood" && outdoor === "yesOut" && beach === "noBeach"){
       $('#hk').show();
-    } else if (history === "History" && culture === "Culture" && food === "Food" && outdoor === "Out" && beach === "Beach"){
+    } else if (history === "noHistory" && culture === "yesCulture" && food === "yesFood" && outdoor === "yesOut" && beach === "noBeach"){
       $('#maui').show();
     }
     // QUESTION //
