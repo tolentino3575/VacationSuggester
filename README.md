@@ -16,7 +16,7 @@ Open html, css, or js files in a text editor
 
 ##Link to Github Pages
 
-
+http://tolentino3575.github.io/VacationSuggester/
 
 ##Legal
 
